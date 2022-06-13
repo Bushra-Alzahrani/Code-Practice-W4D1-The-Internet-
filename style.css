@@ -1,0 +1,227 @@
+*{
+
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.wrapper {
+    width: 900px;
+    margin: 0px auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    width: 900px;
+}
+
+.heading img {
+    width: 110px;
+    vertical-align: middle;
+}
+
+.heading h1 {
+    display: inline-block;
+    color: black;
+    font-size: 250%;
+    padding: 0px 0px 10px 0px;
+}
+
+.heading h1 span {
+    color: steelblue;
+}
+
+.heading h2 {
+    color: white;
+    font-size: 150%;
+    background: linear-gradient(steelblue, lightskyblue, steelblue);
+    padding: 15px;
+    margin-top: -15px;
+}
+
+.right_column {
+    display: inline-block;
+    width: 200px;
+    height: 450px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.right_column aside {
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+    font-weight: bold;
+    margin: 10px 8px;
+}
+
+.right_column aside h4 span {
+    color: rgb(129, 17, 77);
+}
+
+.right_column aside p {
+    font-size: 12px;
+    padding: 5px 0px;
+}
+
+.right_column aside p span {
+    color: steelblue;
+    text-align: justify;
+}
+
+.right_column aside button {
+    color: white;
+    padding: 5px 10px;
+    margin: 4px;
+    border-radius: 6px;
+    width: 170px;
+}
+
+.right_column aside button.watch_video {
+    background-color: steelblue;
+}
+
+.right_column aside button.more_resources {
+    background-color: orange;
+}
+
+.right_column .ad {
+    color: white;
+    margin: 5px;
+}
+
+.right_column .ad .img_container {
+    margin: 10px 5px;
+    position: relative;
+
+}
+
+.right_column .ad .img_container .background {
+    width: 170px;
+    position: absolute;
+    z-index: 1;
+}
+
+.right_column .ad .img_container .foreground {
+    width: 80px;
+    position: absolute;
+    top: 70px;
+    left: 43px;
+    z-index: 3;
+}
+
+.right_column .ad p {
+    margin: 12px;
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    z-index: 6;
+}
+
+.right_column .ad button {
+    margin: 10px 25px 25px;
+    width: 130px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 520px;
+    z-index: 7;
+    border-radius: 6px;
+    background-color: rgb(42, 50, 53);
+    color: white;
+    padding: 4px 5px;
+}
+
+.ad button span {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+main {
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+    width: 690px;
+
+}
+
+.contact {
+    display: inline-block;
+    vertical-align: top;
+    width: 690px;
+    outline: dashed 1px rgb(43, 39, 39);
+    margin-bottom: 20px;
+}
+
+main .contact .left {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px auto;
+    width: 90px;
+}
+
+main .contact .left img {
+    width: 40px;
+}
+
+main .contact .left h4 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+    padding: 3px;
+    color: steelblue;
+}
+
+main .contact .right {
+    display: inline-block;
+    vertical-align: top;
+    width: 595px;
+}
+
+main .contact .right img {
+    width: 30px;
+    margin-left: 310px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+main .contact .right p {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 370px;
+}
+
+main .contact h3 {
+    display: inline-block;
+    color: mediumturquoise;
+    font-size: 200%;
+    margin: 0px 0px 0px 370px;
+}
+main article h4 {
+    display: inline-block;
+    margin: 0px;
+    padding: 3px;
+    vertical-align: top;
+    color: steelblue;
+}
+
+main article .bold {
+    font-weight: bold;
+}
+
+main article .blue {
+    color: rgb(191, 72, 209);
+}
+
+
+main article img {
+    width: 280px;
+    padding: 0px 200px;
+}
+
+main article .what_happens ul li {
+    list-style-type: decimal;
+}
